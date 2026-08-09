@@ -1,10 +1,12 @@
-import tailwindcss from '@tailwindcss/vite';
-import react from '@vitejs/plugin-react';
-import path from 'path';
-import {defineConfig} from 'vite';
-
-export default defineConfig(() => {
-  return {
+{
+  "name": "RIZVI FAMILY IMPMS",
+  "short_name": "RIZVI IMPMS",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0b1020",
+  "theme_color": "#111a32",
+  "icons": []
+}
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
